@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    background-color: gray;
+
+}
+a:link {
+    text-decoration: none;
+
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    max-width: 80%;
+
+
+}
+#RCC {
+    width: 250px;
+    height: 100px;
+
+}
+#AspiringLeader {
+    width: 250px;
+}
+#YellowBelt {
+    width: 250px;
+}
+#ABC2014 {
+    width: 250px;
+}
+#ABC2012{
+    width: 250px;
+}
+#customerservice {
+    width: 250px;
+}
+#Scrum {
+    width: 250px;
+}

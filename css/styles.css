@@ -1,35 +1,34 @@
+/*made my links to be aligned left at the top of the page*/
 #navigation{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     background-color: gray;
     color: #00ffff;
-    justify-content: left;
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    font-size: 18px;
-   
+    align-items: start;
+    padding: 20px;
+
+    
 
 }
-a:link {
+/* trying to get them look even, although there is not an even amount of certs*/
+#certs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 25px;
+}
+#cert-layout{
+    display: grid;
+    grid-template-rows: 125px 1fr;
+}
+a{
     text-decoration: none;
     color:#00ffff;
     text-align: center;
-    justify-content: left;
-    
-    
 
 }
-div {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 50%;
-    margin-right: 50%;
-    justify-content: space-between;
-    max-width: 100%;
 
-
-}
 #RCC {
     width: 250px;
     border-style: double; 
@@ -74,9 +73,12 @@ div {
     border-color: black;
 }
 body {
-    background-color: rgba(208, 238, 233, 0.11);
+    background-color:rgb(236, 154, 190);
     border-style: double; 
     border-color: black;
+    padding: 20px;
+    font-family: "Indie Flower", cursive;
+    font-size: x-large;
 }
 #about-me {
     display: block;
@@ -84,4 +86,30 @@ body {
 }
 .container {
  justify-content:center;
+}
+footer a {
+color: rgb(45, 230, 233);
+}
+#forms {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+th, td {
+    text-align: center;
+    padding: 5px
+}
+table {
+    text-align: center;
+    border: 5px solid black;
+    border-collapse: collapse;
+
+}
+tr, td {
+    border:5px solid black;
+}
+#pic-form {
+    display: flex;
+    justify-content: space-between;
 }

@@ -5,9 +5,8 @@
     background-color: gray;
     color: #00ffff;
     align-items: start;
-    padding: 20px;
-
-    
+    padding: 15px;
+    font-size: medium;
 
 }
 /* trying to get them look even, although there is not an even amount of certs*/
@@ -16,7 +15,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
-    margin-top: 25px;
+    margin-top: 70px;
 }
 #cert-layout{
     display: grid;
